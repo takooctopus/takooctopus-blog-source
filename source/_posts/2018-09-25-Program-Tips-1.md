@@ -112,4 +112,4 @@ Clang 编译结果与之前的无异，但GCC不再认为通过p的赋值操作�
 我们在这之中应该学到什么：第一，试图将一个编程语言指针认为其拥有和指针型整型值(pointer-sized integer value)拥有相同的规则，是错误的。即便是那些已经与未定义行为UB(Undefined Behaviour)达成一致的人也常常会惊讶于程序运行出的结果。第二，这些问题并不仅仅针对于__C__和__C++__，而是会在任何想要高性能编译器且允许低级指针操作的编程语言中创造问题。
 
 那么在Clang与GCC在实际编译时遵循的规律是什么呢？简单的回答就是它比较复杂且没有多少相关研究。一些有用的讨论可以在[这篇关于指针出处的文章](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2263.htm "Clarifying Pointer Provenance v4")中找到。如果想要更为详尽的答案，关于LLVM，可以参阅[这篇将于11月发布在OOPSLA的文章](http://www.cs.utah.edu/~regehr/oopsla18.pdf "Reconciling High-Level Optimizations and Low-Level Code
-in LLVM")，此外作者的一位合作者也写了[一篇关于这个材料的博客](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html "Pointers Are Complicated, or: What's in a Byte?"){% post_link Program-Tips-2 [以及我对这篇博客的翻译] %}
+in LLVM")，此外作者的一位合作者也写了[一篇关于这个材料的博客](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html "Pointers Are Complicated, or: What's in a Byte?"){% post_link 2018-09-27-Program-Tips-2 [以及我对这篇博客的翻译] %}
