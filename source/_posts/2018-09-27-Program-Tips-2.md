@@ -69,7 +69,7 @@ int test(){
 这值得重复一遍：
 **仅仅因为两个指针指向了同一个地址，并不意味着他们能够相互替代甚至是相等！**
 
-这似乎看起来很微妙，确实是。事实上，这仍旧导致了[LLVM](https://bugs.llvm.org/show_bug.cgi?id=35229 "Bug 35229 - LLVM Memory Model needs more rigor to avoid undesired optimization results")与[GCC](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=65752"Bug 65752 - Too strong optimizations int -> pointer casts")中编译时的差异。
+这似乎看起来很微妙，确实是。事实上，这仍旧导致了[LLVM](https://bugs.llvm.org/show_bug.cgi?id=35229 "Bug 35229 - LLVM Memory Model needs more rigor to avoid undesired optimization results")与[GCC](https://gcc.gnu.org/bugzilla/show_bug.cgi?id=65752 "Bug 65752 - Too strong optimizations int -> pointer casts")中编译时的差异。
 
 我们同时注意到了这个末端原则并不是`C++`中唯一一个可以见证这个现象的地方。我们看另外一个例子：`C`中的`restrict`关键字，这个能被用来表示指针没有别名。
 

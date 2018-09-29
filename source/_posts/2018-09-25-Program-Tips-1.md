@@ -23,9 +23,9 @@ in LLVM")的介绍和推广)
 这些目标之间的冲突：当一种语言在高级层面优化做得越好，它在系统核心（OS Kernal）上的表现就越不尽人意，反之亦然。
 
 >我们有一些方法可以去解决这些：
-- __1. __我们可以通过高级语言去调用不同低级语言缩写的代码，比如Java在JNI中所做得那样
-- __2. __我们可以为一种安全语言创建一种特别的低级模式让它去打破普通模式，比如Rust在其非安全代码(unsafe code)中做得一样
-- __3. __我们可以不管它们，并且自由的混合高级与低级语言特性的代码，期望编译器能够将其分开，就像C和C++一样
+    1. 我们可以通过高级语言去调用不同低级语言缩写的代码，比如Java在JNI中所做得那样
+    2. 我们可以为一种安全语言创建一种特别的低级模式让它去打破普通模式，比如Rust在其非安全代码(unsafe code)中做得一样
+    3. 我们可以不管它们，并且自由的混合高级与低级语言特性的代码，期望编译器能够将其分开，就像C和C++一样
 
 ## 我们举一个例子：
 
@@ -112,4 +112,4 @@ Clang 编译结果与之前的无异，但GCC不再认为通过p的赋值操作�
 我们在这之中应该学到什么：第一，试图将一个编程语言指针认为其拥有和指针型整型值(pointer-sized integer value)拥有相同的规则，是错误的。即便是那些已经与未定义行为UB(Undefined Behaviour)达成一致的人也常常会惊讶于程序运行出的结果。第二，这些问题并不仅仅针对于__C__和__C++__，而是会在任何想要高性能编译器且允许低级指针操作的编程语言中创造问题。
 
 那么在Clang与GCC在实际编译时遵循的规律是什么呢？简单的回答就是它比较复杂且没有多少相关研究。一些有用的讨论可以在[这篇关于指针出处的文章](http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2263.htm "Clarifying Pointer Provenance v4")中找到。如果想要更为详尽的答案，关于LLVM，可以参阅[这篇将于11月发布在OOPSLA的文章](http://www.cs.utah.edu/~regehr/oopsla18.pdf "Reconciling High-Level Optimizations and Low-Level Code
-in LLVM")，此外作者的一位合作者也写了[一篇关于这个材料的博客](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html "Pointers Are Complicated, or: What's in a Byte?"){% post_link 2018-09-27-Program-Tips-2 [以及我对这篇博客的翻译] %}
+in LLVM"){% post_link 2018-09-29-Article-Translations-1 [以及我对这篇文章的翻译] %}，此外作者的一位合作者也写了[一篇关于这个材料的博客](https://www.ralfj.de/blog/2018/07/24/pointers-and-bytes.html "Pointers Are Complicated, or: What's in a Byte?"){% post_link 2018-09-27-Program-Tips-2 [以及我对这篇博客的翻译] %}
