@@ -11,16 +11,16 @@ thumbnail: /assets/img/posts/PYTHON-KERNEL/1.jpg
 # Python源码获取与基本情况
 
 ## 源码获取
-```console
+```language-console
 git clone https://github.com/python/cpython.git
 ```
 ## 版本选择与切换
-```console
+```language-console
 git branch -a
 ```
 
 此时我们能够看到所有的版本
-```console
+```language-console
 * master
   remotes/origin/2.7
   remotes/origin/3.4
@@ -35,7 +35,7 @@ git branch -a
  ```
 
  我们看到最新的稳定版是3.7，我们选择将版本选择到最新的稳定版
- ```console
+ ```language-console
 git checkout 3.7
  ```
 

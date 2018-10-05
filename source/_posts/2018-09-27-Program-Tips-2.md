@@ -21,7 +21,7 @@ thumbnail: /assets/img/posts/Program-Tips/1.jpg
 
 「我在下面一般会使用`C++`代码因为在`C++`中写不安全代码比在`Rust`中容易得多，并且非安全代码就是那些问题出现的地方。`C`也有所有这些同样的问题，使用`Unfafe Mode`的`Rust`代码也是」
 
-```c
+```language-c
 int test() {
     auto x = new int[8];
     auto y = new int[8];
@@ -47,7 +47,7 @@ int test() {
 
 所以我们对上面的例子做一点小小的改变：
 
-```c
+```language-c
 int test(){
     auto x = new int[8];
     auto y = new int[8];
@@ -73,7 +73,7 @@ int test(){
 
 我们同时注意到了这个末端原则并不是`C++`中唯一一个可以见证这个现象的地方。我们看另外一个例子：`C`中的`restrict`关键字，这个能被用来表示指针没有别名。
 
-```c
+```language-c
 int foo(int *restrict x, int *restrict y){
     *x = 42;
     if (x == y){
@@ -142,7 +142,7 @@ in LLVM")。
 
 举个例子，`PtrFragment(ptr, 0)`表示`ptr`的第一个字节，通过这种方式，`memcpy`可以"分离"一个指针，将其变成独立的可以在内存中表示这个指针的字节，并分别地复制它们。在一个32位体系结构中，`ptr`的完整值由下面4个字节组成：
 
-```c
+```language-c
 [PtrFragment(ptr, 0), PtrFragment(ptr, 1), PtrFragment(ptr, 2), PtrFragment(ptr, 3)]
 ```
 这种表示支持对指针进行的所有字节级别的“数据移动”操作，这对于`memcpy`是足够的。但不完全支持算数或者位(bit)级别的操作：正如上面所说的，那需要更为复杂的指针表示。
@@ -168,7 +168,7 @@ in LLVM")。
 
 举个例子，下面的`C`代码使用`Uninit`会更加容易优化：
 
-```c
+```language-c
 int test(){
     int x;
     if (condA()) x = 1;

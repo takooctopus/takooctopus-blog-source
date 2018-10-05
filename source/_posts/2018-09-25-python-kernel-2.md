@@ -13,7 +13,7 @@ thumbnail: /assets/img/posts/PYTHON-KERNEL/1.jpg
 ## PyObject的定义
 我们就用官方里面的解释：
 没有什么能被完全被声明为一个`PyObject`，但每一个指向`Python`的对象的指针均能够被视为一个`PyObject*` 指针。
-```c
+```language-c
   [Include/object.h]
 
   /* Nothing is actually declared to be a PyObject, but every pointer to
@@ -32,7 +32,7 @@ thumbnail: /assets/img/posts/PYTHON-KERNEL/1.jpg
 再接着我们看里面的第一个属性`_PyObject_HEAD_EXTRA`，追踪到
 其也定义在object.h里面：
 
-```c
+```language-c
   [Include/object.h]
 
   #ifdef Py_TRACE_REFS
@@ -55,7 +55,7 @@ thumbnail: /assets/img/posts/PYTHON-KERNEL/1.jpg
 
 接着我们追踪`Py_ssize_t`这个属性
 
-```c
+```language-c
 [Include/pyport.h]
 
 /* Py_ssize_t is a signed integral type such that sizeof(Py_ssize_t) ==
@@ -76,7 +76,7 @@ typedef Py_intptr_t     Py_ssize_t;
 
 >关于`ssize_t`
 即我们默认下，根据平台将`ssize_t`的类型设置为`__int64`或者`_W64`
-```c
+```language-c
   /* Define like size_t, omitting the "unsigned" */
   #ifdef MS_WIN64
   typedef __int64 ssize_t;
@@ -88,13 +88,13 @@ typedef Py_intptr_t     Py_ssize_t;
 
 >关于`Py_intptr_t`
 我们继续看`Py_intptr_t`其实是由`intptr_t`定义的
-```c
+```language-c
   typedef intptr_t        Py_intptr_t;
 ```
 
 >>我们继续看`intptr_t`
 其又在__Include/vcstdint.h__中被定义了：
-```c
+```language-c
   // 7.18.1.4 Integer types capable of holding object pointers
   #ifdef _WIN64 // [
     typedef __int64           intptr_t;
@@ -108,7 +108,7 @@ typedef Py_intptr_t     Py_ssize_t;
 
 ### 此时，我们就可以简化我们所看见的对象了
 
-```c
+```language-c
   typedef struct _object {
     int ob_refcnt;
     struct _typeobject *ob_type;
@@ -121,7 +121,7 @@ typedef Py_intptr_t     Py_ssize_t;
 
 >>除此之外，这个作为一个基本单元，在实际使用时还需要其他的内容
 我们以__PyLongObject__为例：
-```c
+```language-c
 [Included/longobject->Inlcude/longintrepr.h]
 
   struct _longobject {
@@ -135,7 +135,7 @@ typedef Py_intptr_t     Py_ssize_t;
 ## 变长对象和定长对象
 在c语言中, 整型占用内存大小是固定的, 无论你保存1还是100. 而由于c没有字符串类型, 因此要表示字符串得用N个char组成数组. 在python中这样描述变长对象:
 
-```c
+```language-c
 typedef struct {
     PyObject ob_base;
     Py_ssize_t ob_size; /* Number of items in variable part */
@@ -151,7 +151,7 @@ typedef struct {
 
 ## 类型对象
 
-```c
+```language-c
   [Include/object.h]
   
   #ifdef Py_LIMITED_API

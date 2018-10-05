@@ -29,7 +29,7 @@ in LLVM")的介绍和推广)
 
 ## 我们举一个例子：
 
-```c++
+```language-c++
 #include <stdio.h>
 #include <stdlib.h>
  
@@ -71,7 +71,7 @@ p = 0x7f93b6400300, *p = 7
 
 ## 现在我们将上面的程序做一点小小的改动
 
-```c
+```language-c
     #include <stdio.h>
     #include <stdlib.h>
 
