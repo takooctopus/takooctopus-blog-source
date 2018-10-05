@@ -29,7 +29,7 @@ in LLVM")的介绍和推广)
 
 ## 我们举一个例子：
 
-```language-c++
+```c preset=tako-codeblock++
 #include <stdio.h>
 #include <stdlib.h>
  
@@ -52,7 +52,7 @@ int main(void) {
 
 当其运行在作者的电脑(MAC)上，其有运行结果
 
-```language-bash
+```bash preset=tako-commandline
 $ clang-6.0 -O3 mem1d.c ; ./a.out
 diff = -96
 x = 0x7fcb0ec00300, *x = 7
@@ -71,7 +71,7 @@ p = 0x7f93b6400300, *p = 7
 
 ## 现在我们将上面的程序做一点小小的改动
 
-```language-c
+```c preset=tako-codeblock
     #include <stdio.h>
     #include <stdlib.h>
 
@@ -94,7 +94,7 @@ p = 0x7f93b6400300, *p = 7
 
 唯一的区别就在第13行里：取代我们之前加法中`diff`与`yi`相加的操作，我们显然使用一个显式值`-96`。现在我们运行程序：
 
-```language-bash
+```bash preset=tako-commandline
     $ clang-6.0 -O3 mem1d2.c ; ./a.out
     diff = -96
     x = 0x7ff21ac00300, *x = 7

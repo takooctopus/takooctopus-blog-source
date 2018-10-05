@@ -12,7 +12,7 @@ thumbnail: /assets/img/posts/THINKPHP-TIPS/1.jpg
 其实这个只需要一点小的更改就能够配好
 我们打开我们的thinkphp文件夹
 找到入口文件index.php
-```language-php
+```php
 <?php
 // 检测PHP环境
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
@@ -24,18 +24,18 @@ define('APP_PATH','./Application/');
 require_once './ThinkPHP/ThinkPHP.php';
 ```
 在其中增加
-```language-php
+```php
 //二级目录配置
 define('THINK_PATH', '../PROJECT_ROUTE/ThinkPHP/');
 define('APP_NAME','PROJECT_NAME');
 ```
 再修改
-```language-php
+```php
 // 引入ThinkPHP入口文件
 require_once THINK_PATH.'ThinkPHP.php';
 ```
 如下面
-```language-php
+```php
 <?php
 // 检测PHP环境
 if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');

@@ -136,7 +136,17 @@ markdown_it_plus:
             name: markdown-it-mark
             enable: false
 
-prism_plugin:
-  mode: 'preprocess'    # realtime/preprocess 
-  theme: 'okaidia'
-  line_number: true     # default false 
+prism_plus:
+    presets:
+        tako-commandline:
+            lineno: true
+            classes: [ command-line ]
+            user: takooctopus
+            host: localhost
+            output: 2
+        tako-codeblock:
+            lineno: false
+            start: -5
+            classes: [mycodeblock, otherclass]
+            styles:
+                max-height: 30em

@@ -8,7 +8,7 @@ A brand new default theme for [Hexo].
 
 ### Install
 
-``` language-git
+```bash preset=tako-codeblock
 $ git clone https://github.com/hexojs/hexo-theme-landscape.git themes/landscape
 ```
 
@@ -20,14 +20,14 @@ Modify `theme` setting in `_config.yml` to `landscape`.
 
 ### Update
 
-``` language-git
+```bash preset=tako-codeblock
 cd themes/landscape
 git pull
 ```
 
 ## Configuration
 
-``` language-yml
+```yml preset=tako-codeblock
 # Header
 menu:
   Home: /

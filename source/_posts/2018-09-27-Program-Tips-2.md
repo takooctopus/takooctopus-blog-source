@@ -21,7 +21,7 @@ thumbnail: /assets/img/posts/Program-Tips/1.jpg
 
 「我在下面一般会使用`C++`代码因为在`C++`中写不安全代码比在`Rust`中容易得多，并且非安全代码就是那些问题出现的地方。`C`也有所有这些同样的问题，使用`Unfafe Mode`的`Rust`代码也是」
 
-```language-c
+```c preset=tako-codeblock
 int test() {
     auto x = new int[8];
     auto y = new int[8];
@@ -47,7 +47,7 @@ int test() {
 
 所以我们对上面的例子做一点小小的改变：
 
-```language-c
+```c preset=tako-codeblock
 int test(){
     auto x = new int[8];
     auto y = new int[8];
@@ -73,7 +73,7 @@ int test(){
 
 我们同时注意到了这个末端原则并不是`C++`中唯一一个可以见证这个现象的地方。我们看另外一个例子：`C`中的`restrict`关键字，这个能被用来表示指针没有别名。
 
-```language-c
+```c preset=tako-codeblock
 int foo(int *restrict x, int *restrict y){
     *x = 42;
     if (x == y){
@@ -101,7 +101,7 @@ int test(){
 
 这里有一个简单的方案「事实上，这也是我们在[CompCert](https://hal.inria.fr/hal-00703441/document "The CompCert Memory Model, Version 2")以及我那个[RustBelt work](https://www.ralfj.de/blog/2017/07/08/rustbelt.html "RustBelt: Securing the Foundations of the Rust Programming Language")中的指针模型。在这里你也可以看见[miri](https://github.com/solson/miri/ "An interpreter for Rust's mid-level intermediate representation")是怎么[实现指针](https://github.com/rust-lang/rust/blob/fefe81605d6111faa8dbb3635ab2c51d59de740a/src/librustc/mir/interpret/mod.rs#L121-L124 "rust/src/librustc/mir/interpret/mod.rs")的」:一个指针就是一对拥有唯一标识内存分配的ID，以及对于这个内存分配的偏移量。如果我们在RUST中定义它，我们可能会写成：
 
-```rust
+```rust preset=tako-codeblock
 struct Pointer {
     alloc_id: usize,
     offset: isize
@@ -133,7 +133,7 @@ in LLVM")。
 
 我们并不能将一个指针的1字节看作一个`0..256`的元素。实际上，如果我们使用一个内存的简单模型，指针的多余“隐藏”数据「用来标记其与整数型不同」将会在我们将一个指针储存到内存再读出后丢失。我们得解决这个问题，所以我们必须得拓展我们“字节”的标记去适应这种额外情况。所以，现在一个字节要不就是一个`0..256`「raw bits」元素，亦或是某些抽象指针的第n比特。如果我们在`Rust`中去实现我们的内存模型，就看起来像下面这样：
 
-```rust
+```rust preset=tako-codeblock
     enum ByteV1{
         Bits(u8),
         PtrFragment(Pointer, u8),
@@ -142,7 +142,7 @@ in LLVM")。
 
 举个例子，`PtrFragment(ptr, 0)`表示`ptr`的第一个字节，通过这种方式，`memcpy`可以"分离"一个指针，将其变成独立的可以在内存中表示这个指针的字节，并分别地复制它们。在一个32位体系结构中，`ptr`的完整值由下面4个字节组成：
 
-```language-c
+```c preset=tako-codeblock
 [PtrFragment(ptr, 0), PtrFragment(ptr, 1), PtrFragment(ptr, 2), PtrFragment(ptr, 3)]
 ```
 这种表示支持对指针进行的所有字节级别的“数据移动”操作，这对于`memcpy`是足够的。但不完全支持算数或者位(bit)级别的操作：正如上面所说的，那需要更为复杂的指针表示。
@@ -152,7 +152,7 @@ in LLVM")。
 
 然而，我们仍旧没有完成我们对于“字节”的定义。为了完全描述程序行为，我们需要考虑更多的可能性：一个在内存中的字节有可能并没有被初始化。最终的对于字节的定义「假定我们有一个`Pointer`类来定义指针」会像下面一样：
 
-```rust
+```rust preset=tako-codeblock
     enum Byte {
         Bits(u8),
         PtrFragment(Pointer, u8),
@@ -168,7 +168,7 @@ in LLVM")。
 
 举个例子，下面的`C`代码使用`Uninit`会更加容易优化：
 
-```language-c
+```c preset=tako-codeblock
 int test(){
     int x;
     if (condA()) x = 1;
