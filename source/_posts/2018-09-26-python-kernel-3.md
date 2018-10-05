@@ -11,13 +11,12 @@ thumbnail: /assets/img/posts/PYTHON-KERNEL/1.jpg
 # 对象的创建
 
 Python在关于对象的创建上，提供了两种方式：
-- __1.__C Api
-- __2.__通过类型创建，比如`PyLong_Type`「Objects/longobject.c」
+- 1.C Api
+- 2.通过类型创建，比如`PyLong_Type`「Objects/longobject.c」
 
 而在`C Api`中提供了两类：
->一种是泛型的Api，形式如同`PyObject_Xxx`「Include/object.h」，其能够应用在任何Python对象上。
-
->另一种是与数据类型相关的Api：
+- 1.一种是泛型的Api，形式如同`PyObject_Xxx`「Include/object.h」，其能够应用在任何Python对象上。
+- 2.另一种是与数据类型相关的Api：
 ```language-c
     PyAPI_FUNC(PyObject *) PyLong_FromLong(long);
 ```

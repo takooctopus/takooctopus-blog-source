@@ -49,7 +49,7 @@ thumbnail: /assets/img/posts/PYTHON-KERNEL/1.jpg
   #endif
 ```
 其表示我们如果定义了`Py_TRACE_REFS`的话，这个结构将可以支持双向列表，并且所有堆中的活动均在这个列表中
->因为在__release__下没有定义`Py_TRACE_REFS`，我们可以忽略这个宏
+>因为在 **release** 下没有定义`Py_TRACE_REFS`，我们可以忽略这个宏
 
 ### Py_ssize_t
 
@@ -71,10 +71,10 @@ typedef Py_intptr_t     Py_ssize_t;
 #endif
 
 ```
->关于`HAVE_SSIZE_T`
-查到对于`HAVE_SSIZE_T`的默认定义为1，其定义在__pyconfig.h__中
+关于`HAVE_SSIZE_T`
+查到对于`HAVE_SSIZE_T`的默认定义为1，其定义在 **pyconfig.h** 中
 
->关于`ssize_t`
+关于`ssize_t`
 即我们默认下，根据平台将`ssize_t`的类型设置为`__int64`或者`_W64`
 ```language-c
   /* Define like size_t, omitting the "unsigned" */
@@ -86,14 +86,15 @@ typedef Py_intptr_t     Py_ssize_t;
   #define HAVE_SSIZE_T 1
 ```
 
->关于`Py_intptr_t`
+关于`Py_intptr_t`
 我们继续看`Py_intptr_t`其实是由`intptr_t`定义的
 ```language-c
   typedef intptr_t        Py_intptr_t;
 ```
 
->>我们继续看`intptr_t`
-其又在__Include/vcstdint.h__中被定义了：
+我们继续看`intptr_t`
+其又在 **Include/vcstdint.h** 中被定义了：
+
 ```language-c
   // 7.18.1.4 Integer types capable of holding object pointers
   #ifdef _WIN64 // [
@@ -115,12 +116,14 @@ typedef Py_intptr_t     Py_ssize_t;
 } PyObject;
 ```
 
->成员作用:
-- __ob_refcnt__：counter，对于变量引用次数进行计数，关于垃圾清理。
-- __ob_type__：type，储存了对象的类型信息，如`int`,`string`,或是`function`等
+成员作用:
+- `ob_refcnt`：counter，对于变量引用次数进行计数，关于垃圾清理。
+- `ob_type`：type，储存了对象的类型信息，如`int`,`string`,或是`function`等
 
->>除此之外，这个作为一个基本单元，在实际使用时还需要其他的内容
-我们以__PyLongObject__为例：
+除此之外，这个作为一个基本单元，在实际使用时还需要其他的内容
+
+我们以 **PyLongObject** 为例：
+
 ```language-c
 [Included/longobject->Inlcude/longintrepr.h]
 
@@ -252,8 +255,7 @@ typedef struct {
 
 在 `_typeobject` 中包含了很多信息,主要有:
 
->
-- 类型名，'tp_name'，格式为__&lt;module&gt;.&lt;name&gt;__，用于内部调用和方便调试
-- 创建对象时分配内存空间大小的变量，`tp_basicsize`和`tp_itemsize`，分别代表基本的大小和里面元素的大小
-- 与对象相关的操作，如`tp_print`这样的函数
-- 要描述的本类型的其他信息
+- 1.类型名，`tp_name`，格式为 **&lt;module&gt;.&lt;name&gt;** ，用于内部调用和方便调试
+- 2.创建对象时分配内存空间大小的变量，`tp_basicsize`和`tp_itemsize`，分别代表基本的大小和里面元素的大小
+- 3.与对象相关的操作，如`tp_print`这样的函数
+- 4.要描述的本类型的其他信息

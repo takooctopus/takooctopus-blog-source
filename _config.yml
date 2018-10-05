@@ -139,4 +139,4 @@ markdown_it_plus:
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess 
   theme: 'okaidia'
-  line_number: true    # default false 
+  line_number: true     # default false 
