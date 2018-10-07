@@ -137,6 +137,13 @@ markdown_it_plus:
             enable: false
 
 prism_plus:
+    default_lang: clike
+    default_preset:
+        lineno: true
+        start: -5
+        classes: [tako-codeblock]
+        styles:
+            max-height: 30em
     presets:
         tako-commandline:
             lineno: true
@@ -144,9 +151,4 @@ prism_plus:
             user: takooctopus
             host: localhost
             output: 2
-        tako-codeblock:
-            lineno: false
-            start: -5
-            classes: [mycodeblock, otherclass]
-            styles:
-                max-height: 30em
+            

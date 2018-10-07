@@ -17,7 +17,7 @@ Python在关于对象的创建上，提供了两种方式：
 而在`C Api`中提供了两类：
 - 1.一种是泛型的Api，形式如同`PyObject_Xxx`「Include/object.h」，其能够应用在任何Python对象上。
 - 2.另一种是与数据类型相关的Api：
-```c preset=tako-codeblock
+```c
     PyAPI_FUNC(PyObject *) PyLong_FromLong(long);
 ```
 
@@ -27,7 +27,7 @@ Python在关于对象的创建上，提供了两种方式：
 
 我们继续去看`PyTypeObject`的定义，在「Include/object.h」中我们能够看见一个关于`PyTypeObject`的定义结构体：
 
-```c preset=tako-codeblock
+```c
 [Include/object.h]
 
 typedef struct _typeobject {
@@ -126,7 +126,7 @@ typedef struct _typeobject {
 
 我们以上面11行的代码为例：
 
-```c preset=tako-codeblock
+```c
 [Include/object.h]
 
  printfunc tp_print;
@@ -134,7 +134,7 @@ typedef struct _typeobject {
 
 我们继续追踪，能在前面发现定义:
 
-```c preset=tako-codeblock
+```c
 [Include/object.h]
 
 typedef int (*printfunc)(PyObject *, FILE *, int);
@@ -149,7 +149,7 @@ typedef int (*printfunc)(PyObject *, FILE *, int);
 而对于标准类有几个重要的方法：`tp_as_number`、`tp_as_sequence`和`tp_as_mapping`
 
 >我们以第一个属性为例，追踪找到其表示的类`PyNumberMethods`：
-```c preset=tako-codeblock
+```c
 [Include/object.h]
 
 typedef struct {
@@ -214,7 +214,7 @@ typedef struct {
 
 对其进行追踪后，我们发现其在「Include/object.h」中最开始定义了这个宏：
 
-```c preset=tako-codeblock
+```c
 [Include/object.h]
 
 #define PyObject_VAR_HEAD      PyVarObject ob_base;
@@ -236,7 +236,7 @@ typedef struct {
 
 我们回头看其中的某个属性，就拿`C API`中的所列出来的一样：
 
-```c preset=tako-codeblock
+```c
 [Include/object.h -> Object/object.c]
 
 Py_hash_t
@@ -275,7 +275,7 @@ PyObject_Hash(PyObject *v)
 
 我们回去看与`ob_refcnt`的值变化有关的函数，可以在下面发现`Py_INCREF(op)`与`Py_DECREF(op)`
 
-```c preset=tako-codeblock
+```c
 [Include/object.h]
 
 #define Py_INCREF(op) (                         
@@ -295,7 +295,7 @@ PyObject_Hash(PyObject *v)
 
 我们可以看见当`ob_refcnt`这个引用计数减少到0时，`Py_DECREF(op)`就会调用析构函数` _Py_Dealloc(_py_decref_tmp)`进行内存的释放工作
 
-```c preset=tako-codeblock
+```c
 [Include/object.h]
 
 #define _Py_Dealloc(op) (                               
@@ -310,7 +310,7 @@ PyObject_Hash(PyObject *v)
 
 我们可以简单地验证一下
 
-```python preset=tako-codeblock
+```python
     [test.py]
 
     x = 2

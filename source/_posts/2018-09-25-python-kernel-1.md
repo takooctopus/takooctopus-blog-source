@@ -11,11 +11,11 @@ thumbnail: /assets/img/posts/PYTHON-KERNEL/1.jpg
 # Python源码获取与基本情况
 
 ## 源码获取
-```bash preset=tako-codeblock
+```bash
 git clone https://github.com/python/cpython.git
 ```
 ## 版本选择与切换
-```bash preset=tako-codeblock
+```bash
 git branch -a
 ```
 
@@ -35,7 +35,7 @@ git branch -a
  ```
 
  我们看到最新的稳定版是3.7，我们选择将版本选择到最新的稳定版
- ```bash preset=tako-codeblock
+ ```bash
 git checkout 3.7
  ```
 

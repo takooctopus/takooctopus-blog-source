@@ -98,6 +98,6 @@ leancloud:
 
 # Mathjax 支持库 
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML

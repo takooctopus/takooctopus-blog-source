@@ -45,7 +45,7 @@ C和C++都有一个有趣的壁龛，它们都倾向于去成为一门低级语�
 
 举个例子：下面的代码会打出什么？或者说`p[6] = 0`会改变q指向的对象的任何值嘛。
 
-```c preset=tako-codeblock
+```c
 char *p = malloc(4);
 char *q = malloc(4);
 q[2] = 0;
@@ -67,7 +67,7 @@ print(q[2]); // prints 0 or 1?
 
 数据流的源入口追踪的定义如下：
 
-```c preset=tako-codeblock
+```c
 char *p = malloc(4); // (val=0x10, obj=p)
 char *q = malloc(4); // (val=0x14, obj=q)
 char *q2 = q + 2; // (val=0x16, obj=q)
@@ -84,7 +84,7 @@ print(*q2); // can be replaced with print(0);
 
 在上一节我们所表现出的并不支持低级语言特性——比方说整型-指针转换。为了支持这个功能，我们可以拓展来源信息：
 
-```c preset=tako-codeblock
+```c
 
 ```
 
