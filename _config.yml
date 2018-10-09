@@ -109,7 +109,7 @@ live2d:
     show: false
     scale: 0.3
   react:
-    opacityDefault: 0.9
+    opacityDefault: 0.95
     opacityOnHover: 0.2
 
 
