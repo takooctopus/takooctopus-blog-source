@@ -77,13 +77,13 @@ thumbnail: /assets/img/posts/English/default.jpg
    - hap + -en -> happen v.发生
    - refer + -al -> referral a.参考的
 - 2）当古典语词根与后缀或另一词根构成一级派生词时，增加连接字母，一般的，希腊词根后面多加-o-,拉丁词根后多加-i-
-  - helic+-o-+-pter ->helicopter n.直升飞机
-  - anthrop+-o-+-logy ->anthropology n.人类学
-  - sent+-i-+-ment n.情感，思想
-  - cert+ -i-+-fy v.证实，证明
+  - helic+ -o-+ -pter ->helicopter n.直升飞机
+  - anthrop+ -o-+ -logy ->anthropology n.人类学
+  - sent+ -i-+ -ment n.情感，思想
+  - cert+ -i-+ -fy v.证实，证明
 - 3）为了保持某些位于词尾的重读词根中元音字母读长音，在词根后添加无语义的构词后缀-e，使得其成为“开音节”
-  - in-+clud+-e ->include v.包含
-  - pro-+mot+-e ->v.促进
+  - in-+clud+ -e ->include v.包含
+  - pro-+mot+ -e ->v.促进
   
 ### 2. 字母的脱落
 
@@ -93,7 +93,7 @@ thumbnail: /assets/img/posts/English/default.jpg
   - write + -er -> writer n.作者
   - create + -ive -> creative a.创造的
 - 2）某些以辅音字母结尾的前缀与以相同的辅音字母开头的词根结合的时候，前缀尾字母脱落，常见的脱落是-s
-  - trans-+spir+-e ->transpire v.蒸发
+  - trans-+spir+ -e ->transpire v.蒸发
   - trans-+ship ->tranship v.转运
 
 ### 3.字母的变更
@@ -110,7 +110,7 @@ thumbnail: /assets/img/posts/English/default.jpg
   - dis-+fer -> differ v.差、不同
   - ex-+fect -> effect v.影响
 - 3）在二级派生下，某些拉丁语源的原始派生词的词根尾字母在添加-ion, -ive, -ible等后缀时发生变化，这些变化遵循拉丁语词干变化的规律，是拉丁语构词的遗留产物
-  - absorb+-ion -> absorption
+  - absorb+ -ion -> absorption
   - produce + -ive ->productive
   - respond + -ible -> responsible
 - 4）在二级派生下，以“辅音字母+y”结尾的单词，在添加后缀时，变y为i。

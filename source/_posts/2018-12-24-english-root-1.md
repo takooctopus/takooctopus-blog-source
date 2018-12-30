@@ -117,11 +117,11 @@ R. R. 哈 特 曼 著 的《 语言 与 语言学 词典》 中 对 词根（ Ro
   - ex-（出）+pend（支付）->expend v.付出
   - im- （入） +port（运）->import v.输入
 - 粘附词根+原生后缀->后缀原生词
-  - equ（相等性）+-ate（使……）->equate v.使相等
-  - vis（看）+-ible（可……的）->visible a.可见的
+  - equ（相等性）+ -ate（使……）->equate v.使相等
+  - vis（看）+ -ible（可……的）->visible a.可见的
 - 原生前缀+粘附词根+原生后缀->前后缀原生词
-  - circum-（环绕）+locut（说）+-ion（……的方式）->circumlocution n.迂回说法
-  - im-（不）+pecc（犯罪）+-able（可……的）->impeccable a.不会做坏事的；没有缺点的
+  - circum-（环绕）+locut（说）+ -ion（……的方式）->circumlocution n.迂回说法
+  - im-（不）+pecc（犯罪）+ -able（可……的）->impeccable a.不会做坏事的；没有缺点的
 
 ### 2.自由词根加缀词为二级派生
 
@@ -132,9 +132,9 @@ R. R. 哈 特 曼 著 的《 语言 与 语言学 词典》 中 对 词根（ Ro
   - supeer-（超）+man n.人 ->superman n.超人
   - en-（使）+rich a.富裕的->enrich v.使富裕
 - 自由词根+派生后缀->后缀派生词
-  - man n.人+-less（无……）->manless a.无人的
-  - work v.工作+-er（……者）->worker n.工人
-  - real a.实际的+-ize（……使）->realize v.使实现
+  - man n.人+ -less（无……）->manless a.无人的
+  - work v.工作+ -er（……者）->worker n.工人
+  - real a.实际的+ -ize（……使）->realize v.使实现
 
 
 ****

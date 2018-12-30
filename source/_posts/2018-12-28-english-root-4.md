@@ -42,16 +42,16 @@ thumbnail: /assets/img/posts/English/default.jpg
 
 ## １． 由词根和词缀含义综合出的含义与派生词的实用意义有些不同
 
-- phil- +anthrop +-ist -> philanthropist n.博爱主义者
-- bi- +cycl +-e ->bicycle n.自行车
-- im- +memor +-ial -> immemorial a.无法追忆的
-- ex- +pos +-e ->expose v.暴露
+- phil- +anthrop + -ist -> philanthropist n.博爱主义者
+- bi- +cycl + -e ->bicycle n.自行车
+- im- +memor + -ial -> immemorial a.无法追忆的
+- ex- +pos + -e ->expose v.暴露
 - de- +tect ->detect v.发觉，侦察
 
 ## 2. 由词根和词缀所决定的派生词的本义在使用过程中发生了变化
 
-- as-（向） +ton（打雷） +-ish（使） v.使惊讶
-- mort-（死） +-ify（使） ->mortify v.伤害
+- as-（向） +ton（打雷） + -ish（使） v.使惊讶
+- mort-（死） + -ify（使） ->mortify v.伤害
 - mar（马） +shal（仆人）->marshal n.元帅
 - dem（人民） +agogue（引导） ->demagogue n.蛊惑民心的政客
 - avi（鸟飞） +ation（……的动作） ->aviation n.航空
@@ -59,15 +59,15 @@ thumbnail: /assets/img/posts/English/default.jpg
 ## 3. 派生词的词义还包括一定的背景知识
 
 - dis-（离） +aster（星） ->disaster n.灾祸
-- equ（相等） +-ator（使……者） ->equator n.赤道
-- ori（上升） +-ent（……地方） ->orient n.东方
-- sal（盐） +-ary（……物） ->salary n.工资
+- equ（相等） + -ator（使……者） ->equator n.赤道
+- ori（上升） + -ent（……地方） ->orient n.东方
+- sal（盐） + -ary（……物） ->salary n.工资
 - zo（动物） +diac（……的） ->zodiac n.黄道带
-- febru（赎罪节） +-ary（表事物） ->Februray n.二月
+- febru（赎罪节） + -ary（表事物） ->Februray n.二月
 - octo（八） +pus（脚） ->octopus n.章鱼
-- mus（老鼠） +-cle（小……） ->muscle n.肌肉
+- mus（老鼠） + -cle（小……） ->muscle n.肌肉
 - bank（条凳） +rupt（破） ->bankrupt n.破产
-- soph（聪明的）+-o- +-mor（傻瓜） +-e ->sophomore n.大学二年级学生
+- soph（聪明的）+ -o- + -mor（傻瓜） + -e ->sophomore n.大学二年级学生
 
 我们可以看到，派生词字面含义与实用词义之间的距离大小（隐性程度）与参与构词的词根类型相关。
 

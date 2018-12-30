@@ -66,7 +66,7 @@ thumbnail: /assets/img/posts/English/default.jpg
 
 - pro- +pel ->propel 
 - dis- +aster ->disaster
-- red +-dish ->reddish
+- red + -dish ->reddish
 
 ****
 
@@ -87,10 +87,10 @@ thumbnail: /assets/img/posts/English/default.jpg
 「后缀属性会决定派生词词性」
 
 - 动词词根：一般构成动词派生词
-  - retro-(back ad.) +grad(to step) +-e ->retrograde v.退步
+  - retro-(back ad.) +grad(to step) + -e ->retrograde v.退步
   - re-(back ad.) +ject(to throw) ->reject v.拒绝，驳回
 - 名词词根：一般构成名词派生词
-  - tele-(afar a.) +phon(sound n.) +-e ->telephone n.电话
+  - tele-(afar a.) +phon(sound n.) + -e ->telephone n.电话
   - tri-(three num.) +gon(angle n.) ->trigon n.三角
   - syn-(same a.) +onym(name n.) ->synonym n.同义词
 
