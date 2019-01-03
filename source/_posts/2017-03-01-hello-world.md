@@ -39,3 +39,19 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+### mathjax使用实例
+
+#### 右括号的分段函数
+
+<p>
+$$
+    \left.
+    \begin{array}{l}
+    \text{if $n$ is even:}&n/2\\
+    \text{if $n$ is odd:}&3n+1
+    \end{array}
+    \right\}
+    =f(n)
+$$
+</p>

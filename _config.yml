@@ -152,3 +152,9 @@ prism_plus:
             host: localhost
             output: 2
             
+math:
+  engine: 'mathjax' # or 'katex' 
+  mathjax:
+    # src: custom_mathjax_source
+    config:
+      # MathJax config
