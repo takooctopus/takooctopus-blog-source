@@ -10,6 +10,11 @@ thumbnail: /assets/img/translate/default.jpg
 {% post_link 2019-01-01-translate-anime-dictionary 翻译动画词典 %}
 
 ****
+### asdasd
 
-{% post_link 2019-01-04-gigguk-anime-in-2018 「gigguk」2018年的日本动画 %}
+2018-12-22 {% post_link 2018-12-22-gigguk-art-of-abridged-series 「gigguk」同人配音动画的艺术 %}
+
+2018-12-25 {% post_link 2018-12-25-gigguk-slime-isekai 「gigguk」史莱姆异世界：最好的异世界动画类型 %}
+
+2019-01-04 {% post_link 2019-01-04-gigguk-anime-in-2018 「gigguk」2018年的日本动画 %}
 

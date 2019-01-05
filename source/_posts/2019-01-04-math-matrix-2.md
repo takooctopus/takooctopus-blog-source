@@ -161,6 +161,61 @@ thumbnail: /assets/img/posts/Math/matrix.png
 ****
 ## 线性映射
 
+`映射`：
+
+映射本身是一个函数，如果V是欧几里得m空间 $ R^m $ 的子空间，而W是 $ R^n $ 的子空间，则 <p>$$ T:V \mapsto W $$</p> 为子空间 V到子空间W的映射「函数、变换」
+
+对于 $ v \in V , w \in W $ ，则我们有 <p>$$ w = T(v) $$</p>
+
+此时子空间V是映射T的`始集`(initial set)或`域`(domain)
+
+子空间W是映射T的`终集`(final set)或`上域`(codomain)
+
+「我们在这里将v称为原像，T(v)称为在映射下的`像`(image)或映射在v处的`值`(value)」
+
+`值域`(range)：
+
+一般的值域的符号为 <p> $$ T(V) = Im(T) = \lbrace T(v: v \in V) \rbrace $$ </p>
+
+### 单射和满射
+
+`单射`(injective)：
+
+只要对于V中两个不同向量，他们映射后的值不同即可
+
+`满射`(surjective):
+
+当映射的值域等于向量空间W，即称 $ T: V \mapsto W $ 为满射
+
+`一对一映射`(bijective)：
+
+当一个映射同时是单射和满射时，称其为一对一映射
+
+还有几个需要了解的映射：压缩映射、膨胀映射和矩阵变换.
+
+<label class="label-theorem">定理6：</label>
+
+当V和W是两个向量空间，而 $ T: V \mapsto W $ 是一`线性变换`，我们有如下性质：
+
+- 若M是V的线性子空间，则T(M)是W的线性子空间
+- 若N是W的线性子空间，则线性反变换 $ T^{-1}(N) $ 是V的线性子空间
+
+### 同构
+
+`同构`(isomorphic):
+
+两个具有相同结构的向量空间E和F称为同构，使用 <p> $$ E \cong F $$ </p>
+
+`同构映射`(isomorphism)：
+
+两个实「或复」内积空间E和F同构，如果存在一个一对一映射 $ T: E \mapsto F $ 保持向量内积不变，即
+
+<p>$$ \langle Tx,Ty \rangle = \langle x,y \rangle \qquad  \forall x,y \in E $$</p>
+
+则这样的映射T为向量空间的同构映射
+
+
+
 
 
 
