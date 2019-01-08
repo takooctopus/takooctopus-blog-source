@@ -304,9 +304,42 @@ $$
 ****
 ## 正态随机向量
 
+### 实正态随机向量
 
+`实正态随机向量`：
 
+我们定义一个均值向量为 $ \mu_x $ 协方差矩阵为 $ \Gamma_x $ 的 实正态随机向量记作 $ x \sim N(\mu_x , \Gamma_x) $
 
+此时其概率密度函数：
 
+<p>$$ f(x) = \frac{1}{(2\pi)^{m/2} { \lvert \Gamma_x \rvert }^{1/2} }  exp[-\frac{1}{2}(x-\mu_x)^T \Gamma_x^{-1} (x-\mu_x) ] $$</p>
+
+`正定二次型`：
+
+<p>$$ (x-\mu_x)^T \Gamma_x^{-1} (x-\mu_x) = \sum_{i=1}^{m} \sum_{j=1}^{m} \Gamma_x^{-1} (i,j) (x_i-\mu_i) (x_j-\mu_j) $$</p>
+
+`特征函数`：
+
+<p>$$ \Phi_x(\omega) = exp(j\omega^T\mu_x - \frac{1}{2} \omega^T \Gamma_x \omega) $$</p>
+
+### 复正态随机向量
+
+`复正态分布随机向量`：
+
+我们记作 $ x \sim CN(\mu_x , \Gamma_x) $
+
+`概率密度函数`：
+
+假设其各个变量统计独立，有
+
+<p>$$ f(x) = \frac{1}{\pi^m \lvert \Gamma_x \rvert}    exp[-(x-\mu_x)^T \Gamma_x^{-1} (x-\mu_x) ] $$</p>
+
+`特征函数`：
+
+<p>$$ \Phi_x(\omega) = exp[jRe(\omega^T\mu_x) - \frac{1}{4} \omega^T \Gamma_x \omega] $$</p>
+
+<label class = "label-warning"> 对于x的线性相关 $ y(\xi) = Ax(\xi) $ </label>
+
+其实概率密度函数和复概率密度函数均和上面的`相同`
 
 

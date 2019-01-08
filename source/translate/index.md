@@ -10,7 +10,7 @@ thumbnail: /assets/img/translate/default.jpg
 {% post_link 2019-01-01-translate-anime-dictionary 翻译动画词典 %}
 
 ****
-### asdasd
+### gigguk漫评
 
 2018-12-22 {% post_link 2018-12-22-gigguk-art-of-abridged-series 「gigguk」同人配音动画的艺术 %}
 
@@ -18,3 +18,6 @@ thumbnail: /assets/img/translate/default.jpg
 
 2019-01-04 {% post_link 2019-01-04-gigguk-anime-in-2018 「gigguk」2018年的日本动画 %}
 
+### BlackHat大会
+
+<label class="label-theorem">= A =</label>

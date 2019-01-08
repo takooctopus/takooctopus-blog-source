@@ -1,12 +1,12 @@
 ---
-title: 「gigguk」2018年的日本动画
+title: 「gigguk」同人配音动画的艺术
 date: 2018-12-22 16:40:02
 thumbnail: /assets/img/translate/default.jpg
 tags: gigguk
 ---
 # TAKOOCTOPUS
 
-<label class="label-header"> 「gigguk」2018年的日本动画 </label>
+<label class="label-header"> 「gigguk」同人配音动画的艺术 </label>
 
 翻译人员：火柴的火花
 
