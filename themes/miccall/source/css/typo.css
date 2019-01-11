@@ -378,3 +378,10 @@ h1, h2, h3, h4, h5, h6 {
   border-radius:0.5em; 
   padding:0.5em 1em;
 }
+
+.label-example {
+  background-color:#A8497A; 
+  color:#FCFAF2; 
+  border-radius:0.5em; 
+  padding:0.5em 1em;
+}

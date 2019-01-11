@@ -3,7 +3,7 @@ title: 矩阵分析与应用（二）：向量空间、内积空间和线性映�
 date: 2019-01-04 20:23:01
 tags: Matrix
 categories: Math # 分类
-thumbnail: /assets/img/posts/Math/matrix.png
+thumbnail: /assets/img/posts/Math/matrix.jpg
 ---
 
 

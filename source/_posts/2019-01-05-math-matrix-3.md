@@ -3,7 +3,7 @@ title: 矩阵分析与应用（三）：随机向量
 date: 2019-01-05 16:57:24
 tags: Matrix
 categories: Math # 分类
-thumbnail: /assets/img/posts/Math/matrix.png
+thumbnail: /assets/img/posts/Math/matrix.jpg
 ---
 
 
