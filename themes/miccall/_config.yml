@@ -4,7 +4,7 @@
 
 # Head info
 head:
-    favicon: "/img/logo_miccall.png"
+    favicon: "/img/logo_miccall.ico"
     keywords: takooctopus takonoheya
     backgroundpic : "img/bg.jpg"
 

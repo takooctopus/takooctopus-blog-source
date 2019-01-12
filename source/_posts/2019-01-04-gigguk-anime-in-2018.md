@@ -1,7 +1,7 @@
 ---
 title: 「gigguk」2018年的日本动画
 date: 2019-01-04 22:32:04
-thumbnail: /assets/img/translate/default.jpg
+thumbnail: /assets/img/translate/gigguk.jpg
 tags: gigguk
 ---
 # TAKOOCTOPUS

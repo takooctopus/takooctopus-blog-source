@@ -1,7 +1,7 @@
 ---
 title: 「gigguk」史莱姆异世界：最好的异世界动画类型
 date: 2018-12-25 19:17:31
-thumbnail: /assets/img/translate/default.jpg
+thumbnail: /assets/img/translate/gigguk.jpg
 tags: gigguk
 ---
 # TAKOOCTOPUS

@@ -1,7 +1,7 @@
 ---
 title: 「gigguk」同人配音动画的艺术
 date: 2018-12-22 16:40:02
-thumbnail: /assets/img/translate/default.jpg
+thumbnail: /assets/img/translate/gigguk.jpg
 tags: gigguk
 ---
 # TAKOOCTOPUS
