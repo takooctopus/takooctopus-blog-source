@@ -9,8 +9,8 @@ Blog for my studying
 
 过气东方厨desu
     
-@TAKOOCTOPUS
->Github@takooctopus
->Bilibili@☆たこ焼き☆
+<label class="label-theorem">@TAKOOCTOPUS</label>
+>Github@[takooctopus](https://github.com/takooctopus)
+>Bilibili@[☆たこ焼き☆](http://space.bilibili.com/499056)
 >Hotmail@takooctopus
 >Gmail@takonoheya
