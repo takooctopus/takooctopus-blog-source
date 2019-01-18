@@ -361,15 +361,15 @@ h1, h2, h3, h4, h5, h6 {
 .label-warning {
   background-color:#60373E; 
   color:#FCFAF2; 
-  border-radius:0.5em; 
-  padding:0.5em 1em;
+  border-radius:0.3em; 
+  padding:0.3em 1em;
 }
 
 .label-theorem {
   background-color:#33A6B8; 
   color:#FCFAF2; 
-  border-radius:0.5em; 
-  padding:0.5em 1em;
+  border-radius:0.3em; 
+  padding:0.3em 1em;
 }
 
 .label-header {
@@ -382,6 +382,6 @@ h1, h2, h3, h4, h5, h6 {
 .label-example {
   background-color:#A8497A; 
   color:#FCFAF2; 
-  border-radius:0.5em; 
-  padding:0.5em 1em;
+  border-radius:0.3em; 
+  padding:0.3em 1em;
 }

@@ -1,6 +1,6 @@
 ---
 title: 多视图几何算法（三）：简介——相机投影
-date: 2019-01-17 17:37:01
+date: 2019-01-16 17:37:01
 tags: Multiple-View
 categories: Math # 分类
 thumbnail: /assets/img/posts/Math/multiple-view.jpg
