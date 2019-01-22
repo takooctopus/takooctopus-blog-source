@@ -3,7 +3,7 @@ title: IC-Reliability ：电子元器件可靠性
 date: 2018-10-16 08:52:05
 tags: Reliability
 categories: IC # 分类
-thumbnail: /assets/img/posts/IC/Reliability/default.png
+thumbnail: /assets/img/posts/IC/Reliability/default.jpg
 ---
 
 >本文由[本人@takooctopus](https://takooctopus.github.io "たこ焼きのGITHUB")关于的IC学习记录
