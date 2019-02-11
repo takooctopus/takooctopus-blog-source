@@ -18,6 +18,9 @@ thumbnail: /assets/img/translate/default.jpg
 
 2019-01-04 {% post_link 2019-01-04-gigguk-anime-in-2018 「gigguk」2018年的日本动画 %}
 
+2019-01-26 {% post_link 2019-01-26-gigguk-best-of-anime-2018 「gigguk」2018年最佳动画 %}
+
+2019-02-10 {% post_link 2019-02-09-gigguk-winter-anime-2019-in-a-nutshell 「gigguk」简谈2019年冬季番 %}
 ### BlackHat大会
 
 <label class="label-theorem">= A =</label>
