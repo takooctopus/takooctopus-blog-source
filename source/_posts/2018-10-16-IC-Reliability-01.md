@@ -1,7 +1,9 @@
 ---
 title: IC-Reliability ：电子元器件可靠性
 date: 2018-10-16 08:52:05
-tags: Reliability
+tags: 
+- IC
+- Reliability
 categories: IC # 分类
 thumbnail: /assets/img/posts/IC/Reliability/default.jpg
 ---

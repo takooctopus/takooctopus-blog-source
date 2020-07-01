@@ -1,8 +1,10 @@
 ---
 title: '英语词根与单词的说文解字（四）：义'
 date: 2018-11-28 00:15:13
-tags: EnglishRoots
-categories: English # 分类
+tags: 
+- translate
+- englishroots
+categories: translate # 分类
 thumbnail: /assets/img/posts/English/default.jpg
 ---
 

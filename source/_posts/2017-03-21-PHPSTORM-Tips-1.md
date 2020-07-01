@@ -1,9 +1,9 @@
 ---
 title: PHPSTORM Tips (一)
 date: 2017-03-21 16:24:09
-tags: PHPSTORM
-categories: PHP # 分类
-thumbnail: /assets/img/posts/PHPSTORM-TIPS/1.jpg
+tags: PHP
+categories: CS # 分类
+thumbnail: /assets/img/posts/CS/PHPSTORM/PHPSTORM.jpg
 ---
 # 用PHPSTORM连接数据库
 大家接触php也有一段日子了，一般来说，

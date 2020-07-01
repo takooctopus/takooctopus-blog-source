@@ -1,7 +1,7 @@
 ---
 title: 矩阵分析与应用（九）：Moore-Penrose 逆矩阵
 date: 2019-02-10 21:52:12
-tags: Matrix
+tags:  Matrix
 categories: Math # 分类
 thumbnail: /assets/img/posts/Math/matrix.jpg
 ---

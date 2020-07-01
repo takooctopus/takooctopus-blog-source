@@ -1,9 +1,9 @@
 ---
 title: ThinkPHP 技巧 (一)
 date: 2017-03-21 15:48:43
-tags: THINKPHP
-categories: THINKPHP # 分类
-thumbnail: /assets/img/posts/THINKPHP-TIPS/1.jpg
+tags: PHP
+categories: CS # 分类
+thumbnail: /assets/img/posts/CS/THINKPHP.jpg
 ---
 # ThinkPHP二级目录的配置
 在最近的thinkphp安装时，出现了小的问题

@@ -1,9 +1,11 @@
 ---
 title: LeetCode 每日算法 833 ：Find And Replace in String 
 date: 2018-09-28 22:08:12
-tags: LeetCode
-categories: LeetCode # 分类
-thumbnail: /assets/img/posts/LeetCode-Daily-Algorithm/default.jpg # 略缩图
+tags: 
+- CS
+- LeetCode
+categories: CS # 分类
+thumbnail: /assets/img/posts/CS/LeetCode.jpg # 略缩图
 ---
 
 >本文由[本人@takooctopus](https://takooctopus.github.io "たこ焼きのGITHUB")对[LeetCode](https://leetcode.com/ "LeetCode")每日打卡签到，做点记录。

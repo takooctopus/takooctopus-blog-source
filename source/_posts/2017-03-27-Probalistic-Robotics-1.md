@@ -1,9 +1,11 @@
 ---
 title: 'Probalistic Robotics #1'
 date: 2017-03-27 23:38:47
-tags: ARTIFICIAL INTELLIGENCE
-categories: ARTIFICIAL-INTELLIGENCE # 分类
-thumbnail: /assets/img/posts/ARTIFICIAL-INTELLIGENCE/Probalistic-Robotics.jpg
+tags: 
+- CS
+- ArtificialIntelligence
+categories: ArtificialIntelligence # 分类
+thumbnail: /assets/img/posts/ArtificialIntelligence/ProbalisticRobotics.jpg
 ---
 #Probalistic Robotics #1
 >在我时隔两个月重新捡起了这本书，准备重新看一看，顺便写写博客作为重新的心得

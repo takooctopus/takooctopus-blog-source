@@ -1,7 +1,7 @@
 ---
 title: 矩阵分析与应用（一）：矩阵的基本运算
 date: 2019-01-02 21:55:08
-tags: Matrix
+tags:  Matrix
 categories: Math # 分类
 thumbnail: /assets/img/posts/Math/matrix.jpg
 ---

@@ -1,9 +1,9 @@
 ---
 title: 多视图几何算法（一）：前言
 date: 2019-01-12 17:43:32
-tags: Multiple-View
+tags: MultipleView
 categories: Math # 分类
-thumbnail: /assets/img/posts/Math/multiple-view.jpg
+thumbnail: /assets/img/posts/Math/MultipleView.jpg
 ---
 
 # 前言

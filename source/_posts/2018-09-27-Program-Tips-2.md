@@ -1,9 +1,9 @@
 ---
 title: 博文翻译（二）：指针很复杂，或者：一个字节中有什么
 date: 2018-09-27 21:54:36
-tags: Program
-categories: Program # 分类
-thumbnail: /assets/img/posts/Program-Tips/1.jpg
+tags: CS
+categories: CS # 分类
+thumbnail: /assets/img/posts/CS/ProgramTips.jpg
 ---
 
 >本文由[本人@takooctopus](https://takooctopus.github.io "たこ焼きのGITHUB")对国外博客做的个人翻译，并在此附上原文地址

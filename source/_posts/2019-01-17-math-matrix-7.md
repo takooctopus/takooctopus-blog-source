@@ -1,7 +1,7 @@
 ---
 title: 矩阵分析与应用（七）：逆矩阵
 date: 2019-01-17 22:08:35
-tags: Matrix
+tags:  Matrix
 categories: Math # 分类
 thumbnail: /assets/img/posts/Math/matrix.jpg
 ---

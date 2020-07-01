@@ -2,7 +2,7 @@
 title: 「gigguk」党争时的你
 date: 2019-02-22 18:36:15
 thumbnail: /assets/img/translate/gigguk.jpg
-tags: gigguk
+tags:  Gigguk
 ---
 # TAKOOCTOPUS
 

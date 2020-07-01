@@ -1,7 +1,7 @@
 ---
 title: 矩阵分析与应用（四）：内积和范数
 date: 2019-01-08 15:26:24
-tags: Matrix
+tags:  Matrix
 categories: Math # 分类
 thumbnail: /assets/img/posts/Math/matrix.jpg
 ---

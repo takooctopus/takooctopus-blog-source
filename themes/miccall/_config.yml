@@ -32,8 +32,8 @@ Nav:
             link: "/about/"
         团队 :
             link: "/group/"
-        翻译:
-            link: "/translate/"
+        系列:
+            link: "/series/"
         图库 :
             link: "/gallery/"
         标签:

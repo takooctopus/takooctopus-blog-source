@@ -1,9 +1,9 @@
 ---
 title: 表面缺陷数据集
 date: 2019-04-10 08:48:50
-tags: surface-defect
+tags: SurfaceDefect
 categories: Database # 分类
-thumbnail: /assets/img/posts/Math/matrix.jpg
+thumbnail: /assets/img/posts/Database/SurfaceDefect.jpg
 ---
 
 # 表面缺陷数据集

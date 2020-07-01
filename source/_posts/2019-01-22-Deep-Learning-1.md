@@ -1,9 +1,9 @@
 ---
-title: Deep-Learning（一）：简介
+title: DeepLearning（一）：简介
 date: 2019-01-22 17:44:23
-tags: Deep-Learning
-categories: ARTIFICIAL-INTELLIGENCE # 分类
-thumbnail: /assets/img/posts/ARTIFICIAL-INTELLIGENCE/Deep-Learning.jpg
+tags: DeepLearning
+categories: ArtificialIntelligence # 分类
+thumbnail: /assets/img/posts/ArtificialIntelligence/DeepLearning.jpg
 ---
 
 # 简介

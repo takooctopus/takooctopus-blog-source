@@ -1,9 +1,11 @@
 ---
 title: LeetCode 每日算法 892 ：Surface Area of 3D Shapes
 date: 2018-10-09 17:53:45
-tags: LeetCode
-categories: LeetCode # 分类
-thumbnail: /assets/img/posts/LeetCode-Daily-Algorithm/default.jpg # 略缩图
+tags: 
+- CS
+- LeetCode
+categories: CS # 分类
+thumbnail: /assets/img/posts/CS/LeetCode.jpg # 略缩图
 ---
 
 >本文由[本人@takooctopus](https://takooctopus.github.io "たこ焼きのGITHUB")对[LeetCode](https://leetcode.com/ "LeetCode")每日打卡签到，做点记录。

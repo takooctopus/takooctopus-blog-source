@@ -1,8 +1,10 @@
 ---
 title: '英语词根与单词的说文解字（一）：引言'
 date: 2018-11-24 12:40:29
-tags: EnglishRoots
-categories: English # 分类
+tags: 
+- translate
+- englishroots
+categories: translate # 分类
 thumbnail: /assets/img/posts/English/default.jpg
 ---
 

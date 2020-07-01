@@ -1,7 +1,7 @@
 ---
 title: 矩阵分析与应用（五）：基与Gram-Schmidt正交化
 date: 2019-01-10 23:13:14
-tags: Matrix
+tags:  Matrix
 categories: Math # 分类
 thumbnail: /assets/img/posts/Math/matrix.jpg
 ---

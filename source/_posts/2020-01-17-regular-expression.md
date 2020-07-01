@@ -1,9 +1,9 @@
 ---
 title: 正则表达
 date: 2020-01-17 18:26:50
-tags: Regular Expression
+tags: RegularExpression
 categories: CS # 分类
-thumbnail: /assets/img/posts/CS/regular-expression.jpg
+thumbnail: /assets/img/posts/CS/RegularExpression.jpg
 ---
 
 # 关于

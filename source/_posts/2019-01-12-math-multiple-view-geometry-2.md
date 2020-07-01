@@ -1,9 +1,9 @@
 ---
 title: 多视图几何算法（二）：简介——投影几何
 date: 2019-01-12 20:21:32
-tags: Multiple-View
+tags: MultipleView
 categories: Math # 分类
-thumbnail: /assets/img/posts/Math/multiple-view.jpg
+thumbnail: /assets/img/posts/Math/MultipleView.jpg
 ---
 
 # 简介——投影几何

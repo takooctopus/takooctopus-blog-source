@@ -2,7 +2,7 @@
 title: 「gigguk」2018年最佳动画
 date: 2019-01-26 00:36:15
 thumbnail: /assets/img/translate/gigguk.jpg
-tags: gigguk
+tags:  Gigguk
 ---
 # TAKOOCTOPUS
 
