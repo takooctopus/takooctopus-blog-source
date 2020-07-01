@@ -15,7 +15,7 @@ Intro:
 
 Nav:
     Home_name: 主页
-    is_use_categories : true 
+    is_use_categories : false 
     categories_name: 分类
     is_use_archives : false
     archives_name: 归档
